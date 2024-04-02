@@ -39,44 +39,6 @@ const Login = () => {
       return;
     }
 
-    // const user = await User.findOne({email});
-
-    // if(!user){
-    //     //user not found
-    //     toast({
-    //         title: "User Not Found",
-    //         description: "You might want to register first",
-    //         status:"warning",
-    //         duration: 9000,
-    //         isClosable: true,
-    //         position: "top"
-    //     });
-    // }
-    // else{
-    //     const isPasswordCorrect = await user.matchPassword(password);
-    //     if(isPasswordCorrect){
-    //         //login successful
-    //          toast({
-    //         title: "Login Succesfull",
-    //         description: "Welcome to Webchat!!",
-    //         status:"success",
-    //         duration: 9000,
-    //         isClosable: true,
-    //         position: "top"
-    //     });
-    //     }
-    //     else{
-    //         //incorrect password
-    //          toast({
-    //         title: "Incorrect Password",
-    //         status:"warning",
-    //         duration: 9000,
-    //         isClosable: true,
-    //         position: "top"
-    //     });
-    //     }
-    // }
-
     try {
       const config = {
         headers: {
