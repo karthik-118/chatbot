@@ -18,7 +18,7 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) chat application with
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/mern-chat-app.git
+   git clone https://github.com/AnshNagpal0/ChitChat.git
    
    
 2. Navigate to the project directory:
