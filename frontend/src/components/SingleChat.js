@@ -3,14 +3,7 @@ import axios from "axios";
 import { ChatState } from "../context/chatProvider";
 import Lottie from "react-lottie";
 import "./styles.css";
-import {
-  FormControl,
-  // FormLabel,
-  // FormErrorMessage,
-  // FormHelperText,
-  Input,
-  useToast,
-} from "@chakra-ui/react";
+import { FormControl, Input, useToast } from "@chakra-ui/react";
 import { Box, Text, IconButton, Spinner } from "@chakra-ui/react";
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import { getSender } from "../config/logic";
@@ -122,11 +115,13 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
     socket.on("connected", () => setSocketConnected(true));
     socket.on("typing", () => setIsTyping(true));
     socket.on("stop typing", () => setIsTyping(false));
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
     fetchMessages();
     selectedChatCompare = selectedChat;
+    // eslint-disable-next-line
   }, [selectedChat]);
 
   useEffect(() => {
@@ -143,6 +138,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         setMessages(...messages, newMessageRecieved);
       }
     });
+    // eslint-disable-next-line
   }, []);
 
   const typingHandler = (e) => {

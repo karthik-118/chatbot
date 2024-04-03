@@ -21,10 +21,6 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  // MenuItemOption,
-  // MenuGroup,
-  // MenuOptionGroup,
-  // MenuDivider,
   useToast,
 } from "@chakra-ui/react";
 import { useHistory } from "react-router-dom";
@@ -40,6 +36,7 @@ const SideDrawer = () => {
   const [search, setSearch] = useState("");
   const [searchResult, setSearchResult] = useState([]);
   const [loading, setLoading] = useState(false);
+  // eslint-disable-next-line
   const [loadingChat, setLoadingChat] = useState();
   const history = useHistory();
   const {

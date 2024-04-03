@@ -16,12 +16,7 @@ import {
   useToast,
   Spinner,
 } from "@chakra-ui/react";
-import {
-  FormControl,
-  // FormLabel,
-  // FormErrorMessage,
-  // FormHelperText,
-} from "@chakra-ui/react";
+import { FormControl } from "@chakra-ui/react";
 import { ViewIcon } from "@chakra-ui/icons";
 import { ChatState } from "../../context/chatProvider";
 import UsersAdded from "../user/UsersAdded";
@@ -33,6 +28,7 @@ const UpdateGroupChatModal = ({ fetchAgain, setFetchAgain, fetchMessages }) => {
   const [groupChatName, setGroupChatName] = useState();
   const [search, setSearch] = useState("");
   const [searchResult, setSearchResult] = useState([]);
+  // eslint-disable-next-line
   const { loading, setLoading } = useState(false);
   const [renameLoading, setRenameLoading] = useState();
   const toast = useToast();

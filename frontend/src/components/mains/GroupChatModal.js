@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {
-  FormControl,
-  // FormLabel,
-  // FormErrorMessage,
-  // FormHelperText,
-  Input,
-} from "@chakra-ui/react";
+import { FormControl, Input } from "@chakra-ui/react";
 import {
   Modal,
   ModalOverlay,
