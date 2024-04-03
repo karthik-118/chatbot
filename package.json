@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
-    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "server": "node backend/server.js",
     "build": "npm install --lagacy-peer-deps && npm install --lagacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Ansh Nagpal",
