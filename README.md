@@ -13,6 +13,9 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) chat application with
 - **Notifications:** Receive notifications for new unread messages.
 - **Log-out:** Safely log out with a single button click.
 
+## Live Link
+- ** https://chitchat-msny.onrender.com/ **
+
 ## Installation
 
 1. Clone the repository:
