@@ -5,9 +5,9 @@ import Lottie from "react-lottie";
 import "./styles.css";
 import {
   FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
+  // FormLabel,
+  // FormErrorMessage,
+  // FormHelperText,
   Input,
   useToast,
 } from "@chakra-ui/react";

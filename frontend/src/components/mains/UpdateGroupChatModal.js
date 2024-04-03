@@ -18,9 +18,9 @@ import {
 } from "@chakra-ui/react";
 import {
   FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
+  // FormLabel,
+  // FormErrorMessage,
+  // FormHelperText,
 } from "@chakra-ui/react";
 import { ViewIcon } from "@chakra-ui/icons";
 import { ChatState } from "../../context/chatProvider";

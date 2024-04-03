@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import {
   FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
+  // FormLabel,
+  // FormErrorMessage,
+  // FormHelperText,
   Input,
 } from "@chakra-ui/react";
 import {
