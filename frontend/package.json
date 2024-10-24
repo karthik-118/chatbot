@@ -37,9 +37,9 @@
       "react-app",
       "react-app/jest"
     ],
-  "rules": {
-    "eslint-disable-next-line no-undef": "off"
-  }
+    "rules": {
+      "eslint-disable-next-line no-undef": "off"
+    }
   },
   "browserslist": {
     "production": [

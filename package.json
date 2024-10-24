@@ -8,7 +8,7 @@
     "server": "node backend/server.js",
     "build": "npm install --lagacy-peer-deps && npm install --lagacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Ansh Nagpal",
+  "author": "Karthik",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
